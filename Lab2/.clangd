@@ -1,0 +1,12 @@
+CompileFlags:
+    Add:
+        - -I/home/giovanni/systemc/include
+        - -std=c++17
+    Remove:
+        - -Wno-deprecated
+        - -Wno-return-type
+        - -Wno-char-subscripts
+
+Diagnostics:
+    UnusedIncludes: None
+    MissingIncludes: Relaxed
